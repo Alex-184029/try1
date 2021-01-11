@@ -38,3 +38,6 @@
   2.推送分支：git push origin <分支名>
   3.抓取分支：git pull
   4.注意解决分支冲突
+19.rebase：push分叉提交整理成直线，更直观
+20.标签tag：与commit挂钩，代替数字编号
+21.国内类似GitHub：码云，Gitee
