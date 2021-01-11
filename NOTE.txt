@@ -27,4 +27,14 @@
   查看当前分支：git branch（当前分支前面有一个*符号）
   切换分支：git checkout <分支名>  || git switch <已有分支>
   分支合并：git merge <欲合并分支>  （合并到当前）
-  删除分支：git branch -D <分支名>
+  删除分支：git branch -d <分支名>  （d改成D可强行删除未merge的分支）
+17.暂存：
+  1.开启：git stash
+  2.查看：git stash list
+  3.恢复：git stash apply    4.删除：git stashdrop
+  5.恢复+删除：git stash pop
+18.远程协作：
+  1.查看远程：git remote  ||  git remote -v（更详细）
+  2.推送分支：git push origin <分支名>
+  3.抓取分支：git pull
+  4.注意解决分支冲突
