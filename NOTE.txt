@@ -1,0 +1,14 @@
+      Git学习笔记
+1.全局配置：git config --global user.name "<名称>"
+           git config --global user.email "<邮箱>"
+2.初始仓库：git init
+3.提交文件：git add <文件名1> <文件名2>  git commit -m "<备注>"
+4.时光穿梭：回到过去版本，也可再回到未来版本git reflog
+5.查看当前目录：dir
+6.查看文件内容：cat <文件>
+7.清屏：reset  （可能有点慢）
+8.git chectout -- <文件> 丢弃现有工作区修改，回到最近一次add或commit
+9.删除：rm <file>相当于资源管理器中删除
+       git rm <file>版本库中删除，最后提交 git commit -m "<备注>"
+10.打印日志：git log 简介显示，可加上参数 --pretty=oneline
+11.查看状态：git status
