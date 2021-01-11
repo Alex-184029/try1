@@ -18,3 +18,5 @@
 14.推送远程：
   初次：git push -u origin master
   修改：git push origin master
+15.从远程克隆：git clone git@github.com:Alex-184029/gitskills.git
+            也可直接git clone <github域名https......>
