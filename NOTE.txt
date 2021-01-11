@@ -26,5 +26,5 @@
   创建并切换分支：git checkout -b <分支名> || git switch -c <分支名>
   查看当前分支：git branch（当前分支前面有一个*符号）
   切换分支：git checkout <分支名>  || git switch <已有分支>
-  分支合并：git merge  （合并到当前分支）
+  分支合并：git merge <欲合并分支>  （合并到当前）
   删除分支：git branch -D <分支名>
