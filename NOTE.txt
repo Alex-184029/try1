@@ -3,6 +3,7 @@
            git config --global user.email "<邮箱>"
 2.初始仓库：git init
 3.提交文件：git add <文件名1> <文件名2>  git commit -m "<备注>"
+          全部添加：git add .
 4.时光穿梭：回到过去版本，也可再回到未来版本git reflog
 5.查看当前目录：dir
 6.查看文件内容：cat <文件>
