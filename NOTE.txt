@@ -41,3 +41,6 @@
 19.rebase：push分叉提交整理成直线，更直观
 20.标签tag：与commit挂钩，代替数字编号
 21.国内类似GitHub：码云，Gitee
+22.忽略文件：根目录下.gitignore文件说明
+23.帮助：git --help <内容>
+24.查看配置文件：cat .git/config
