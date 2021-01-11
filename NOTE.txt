@@ -12,3 +12,9 @@
        git rm <file>版本库中删除，最后提交 git commit -m "<备注>"
 10.打印日志：git log 简介显示，可加上参数 --pretty=oneline
 11.查看状态：git status
+12.远程：git remote add origin git@github.com:Alex-184029/try1.git
+    try1为github上的远程仓库名
+13.初次连接需要SSH配置，网上有教程
+14.推送远程：
+  初次：git push -u origin master
+  修改：git push origin master
