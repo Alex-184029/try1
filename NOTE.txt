@@ -21,3 +21,7 @@
   修改：git push origin master
 15.从远程克隆：git clone git@github.com:Alex-184029/gitskills.git
             也可直接git clone <github域名https......>
+16.分支：
+  主分支master
+  创建并切换分支：git checkout -b dev
+  查看当前分支：git branch（当前分支前面有一个*符号）
